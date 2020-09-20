@@ -45,11 +45,6 @@ class insta_site():
 				os.remove(img_path)
 				with open(img_path, 'wb+') as file_img:
 					file_img.write(req_img.content)
-				#with open(img_path, 'rb') as current_img:
-				#	if current_img.read() != req_img.raw.read():
-				#		os.remove(img_path)
-				#		with open(img_path, 'wb+') as file_img:
-				#			shutil.copyfileobj(req_img.raw, file_img)
 				
 			del req_img
 			self.img_path = img_path
