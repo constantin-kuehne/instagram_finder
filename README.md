@@ -1,2 +1,5 @@
 # instagram_finder
-A simple website to search instagram users
+<h1> Description </h1>
+A simple website to search instagram users' profiles.
+
+
